@@ -6,7 +6,13 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MessageBuilder builder = new MessageBuilder();
+            string message;
+
+            message = builder.BuildHelloMessage();
+            Console.WriteLine(message);
+
+            Console.ReadKey();  // Pause waiting for key to be pressed
         }
     }
 }
