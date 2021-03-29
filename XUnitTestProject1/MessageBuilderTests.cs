@@ -9,7 +9,7 @@ namespace XUnitTestProject1
         [Fact]
         public void HelloMessageTest()
         {
-            string expectedValue = "Hello World";
+            string expectedValue = "Hello World Again";
             string actualValue;
             MessageBuilder builder = new MessageBuilder();
             actualValue = builder.BuildHelloMessage();
