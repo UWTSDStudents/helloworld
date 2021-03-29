@@ -8,7 +8,7 @@ namespace HelloWorld
     {
         public string BuildHelloMessage()
         {
-            return "Hello World Again";
+            return "Hello World";
         }
     }
 }
