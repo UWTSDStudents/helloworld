@@ -10,5 +10,10 @@ namespace HelloWorld
         {
             return "Hello World Again2";
         }
+
+        public string BuildMessage(string format, params object[] args)
+        {
+            return string.Format(format, args);
+        }
     }
 }

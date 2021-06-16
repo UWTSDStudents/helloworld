@@ -12,6 +12,9 @@ namespace HelloWorld
             message = builder.BuildHelloMessage();
             Console.WriteLine(message);
 
+            message = builder.BuildMessage("Hello {0}", "Fred");
+            Console.WriteLine(message);
+
             Console.ReadKey();  // Pause waiting for key to be pressed
         }
     }
